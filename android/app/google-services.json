@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170294570785",
+    "project_id": "self-attendance-system",
+    "storage_bucket": "self-attendance-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170294570785:android:1dcc0e2cfa0deac5df1860",
+        "android_client_info": {
+          "package_name": "com.example.self_attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170294570785-9k7jndo4q6blglute7geg8c6svlqt4ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtmPO0HJXenY7suR1OpuwepdAIQsslwvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170294570785-9k7jndo4q6blglute7geg8c6svlqt4ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
