@@ -1,17 +1,42 @@
-# self_attendance
+# Self Attendance Management System 📱
 
-A new Flutter project.
+A modern, secure, and easy-to-use Attendance Management System built with **Flutter** and **Firebase**. This app allows users to mark their daily attendance with one click and view their attendance history in real-time.
 
-## Getting Started
+## 🚀 Key Features
+- **Firebase Authentication**: Secure Sign-up and Login using Email/Password.
+- **One-Tap Attendance**: Quick "Mark Attendance" button on the dashboard.
+- **Duplicate Prevention**: Prevents users from marking attendance more than once per day.
+- **Real-time Stats**: Track your total present days and attendance percentage instantly.
+- **Real-time History**: View a chronological log of all past attendance records.
+- **Premium UI**: Clean, responsive design with smooth animations.
 
-This project is a starting point for a Flutter application.
+## 📥 Download APP
+You can download the latest version of the app directly from this repository:
 
-A few resources to get you started if this is your first Flutter project:
+[**⬇️ Download self-attendance.apk**](https://github.com/arp1511/self-attendance-management-system/raw/master/apk/self-attendance.apk)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Project Structure
+- `lib/services/auth_service.dart`: Firebase Auth logic.
+- `lib/services/database_service.dart`: Firestore operations.
+- `lib/screens/dashboard_screen.dart`: Main user interface.
+- `lib/models/attendance_model.dart`: Data structure for attendance records.
+
+## ⚙️ Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/arp1511/self-attendance-management-system.git
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Follow the [FIREBASE_SETUP.md](FIREBASE_SETUP.md) guide to link your own Firebase project.
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+---
+*Developed for efficient and transparent attendance tracking.*
